@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicious Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid font">
+                <a class="navbar-brand" href="#">The Flavor Haven</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center text-white d-flex justify-content-center align-items-center" style="background-image: url(https://i.pinimg.com/1200x/0f/64/8a/0f648a264b8179e13a7c6ff540da4e4f.jpg);">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="display-4">Welcome to The Flavor Haven Restaurant</h1>
+            <a href="#menu" class="btn btn-primary btn-lg mt-3">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Our Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/enabled_hi/1200x/32/2a/45/322a459efe060bd98fda0b2d8fc48967.jpg" class="card-img-top" alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Spaghetti Carbonara</h5>
+                            <p class="card-text">A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                            <p class="price">$12.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/1200x/48/47/11/484711217fbf8ecee23d348593f8a385.jpg" class="card-img-top" alt="Dish 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text">Fresh tomatoes, mozzarella cheese, fresh basil, and olive oil.</p>
+                            <p class="price">$9.99</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/1200x/c1/16/46/c11646a428c4232d0e62aacaefd2c91b.jpg" class="card-img-top" alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Caesar Salad</h5>
+                            <p class="card-text">Crisp romaine lettuce, Caesar dressing, croutons, and Parmesan cheese.</p>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section py-5 bg-light">
+        <div class="container-1">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://i.pinimg.com/1200x/c1/4b/3c/c14b3c23178c8dcbb1d3f0bb98b93d66.jpg" class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>At The Flavor Haven, we pride ourselves on serving freshly prepared meals made from the finest ingredients. Our mission is to provide a delightful dining experience to all of our guests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5" style="background-color: #792620;">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 The Flavor Haven. Follow us on 
+            <div class="media">
+            <a href="www.facebook.com" class="text-white">Facebook</a>, 
+            <a href="www.x.com" class="text-white">Twitter</a>, 
+            <a href="www.instagram.com" class="text-white">Instagram</a>.
+        </div>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
